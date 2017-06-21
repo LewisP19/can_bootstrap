@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project LP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+    
+ <div id="bg"></div>
+<section>
+  <nav>
+    <ul>
+      <li data-xcoord="0px" onclick="location.href='index.html';" >Home</li>
+      <li data-xcoord="160px" onclick="location.href='news.html';">News</li>
+      <li data-xcoord="320px" onclick="location.href='Xbox.html';">Xbox</li>
+      <li data-xcoord="480px" onclick="location.href='PS4.html';">PS4</li>
+       <li data-xcoord="640px" onclick="location.href='FAQ.html';">FAQ</li>
+    </ul>
+  </nav>
+</section>
+    
+    
+    <!--FAQ-->
+   <div class="container"> 
+<br>
+
+<div class="content">
+<div>
+  <input type="checkbox" id="question1" name="q"  class="questions">
+  <div class="plus">+</div>
+  <label for="question1" class="question">
+    How can I contact you through the website?
+  </label>
+  <div class="answers">
+    You can use the contact form, by clocking on the contact us button, located at the bottom of all pages.
+  </div>
+</div>
+
+<div>
+  <input type="checkbox" id="question2" name="q" class="questions">
+  <div class="plus">+</div>
+  <label for="question2" class="question">
+    Where are the reviews located for Xbox games?
+  </label>
+  <div class="answers">
+    They are simply located by clicking the 'Xbox' button on the top navbar.
+  </div>
+</div>
+  
+<div>
+  <input type="checkbox" id="question3" name="q" class="questions">
+  <div class="plus">+</div>
+  <label for="question3" class="question">
+    Which game should I buy?
+  </label>
+  <div class="answers">
+    Our website provides plenty of reviews on new and upcoming games for you to make your choice on.
+  </div>
+</div>
+</div>
+</div>
+    
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Lewis Pace</p>
+			<a class="navbar-btn btn btn-default pull-" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+<!--JavaScript-->
+
+<script> 
+
+
+</script>
+
+
+
+
+
+
